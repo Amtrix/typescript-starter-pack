@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "registry:npm/express#4.14.0+20160922175659"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160923124626",
+  }
+}

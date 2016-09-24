@@ -1,0 +1,21 @@
+{
+  "name": "TheCanvas",
+  "version": "0.1.0",
+  "private": true,
+  "main": "build/server/server/main.js",
+  "scripts": {
+    "start": "node build/server/main.js",
+    "install": "tsc --project server && tsc --project client",
+    "preinstall": "gulp sync && typings install"
+  },
+  "dependencies": {
+    "express": "~4.9.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-directory-sync": "^1.2.3",
+    "typescript": "*",
+    "typings": "*"
+  }
+}

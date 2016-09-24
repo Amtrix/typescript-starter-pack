@@ -1,0 +1,1 @@
+// Your script for index.html here -- you have to include it with a script tag, obviously.
