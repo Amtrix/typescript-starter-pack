@@ -13,15 +13,5 @@ app.get("/example", (req: Express.Request, res: Express.Response, next: Express.
 
 app.use(Express.static(Path.join(__dirname, "../client")));
 
-
-// Access from customer-client from here on:
-app.all('/', (req: Express.Request, res: Express.Response, next: Express.NextFunction) => {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    next();
-});
-
-
-
 console.log("Running on port: " + PORT);
 server.listen(PORT);

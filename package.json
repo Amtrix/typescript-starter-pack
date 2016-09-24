@@ -1,6 +1,6 @@
 {
-  "name": "TheCanvas",
-  "version": "0.1.0",
+  "name": "ProjectABC",
+  "version": "1.0.0",
   "private": true,
   "main": "build/server/server/main.js",
   "scripts": {
