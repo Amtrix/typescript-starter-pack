@@ -5,8 +5,7 @@
   "main": "build/server/server/main.js",
   "scripts": {
     "start": "node build/server/main.js",
-    "install": "tsc --project server && tsc --project client",
-    "preinstall": "gulp sync && typings install"
+    "prepublish": "gulp sync && typings install && tsc --project server && tsc --project client"
   },
   "dependencies": {
     "express": "~4.9.7",
