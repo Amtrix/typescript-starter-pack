@@ -5,16 +5,24 @@
   "main": "build/server/server/main.js",
   "scripts": {
     "start": "node build/server/main.js",
-    "prepublish": "gulp sync && typings install && tsc --project server && tsc --project client"
+    "prepublish": "typings install && tsc --project server"
   },
   "dependencies": {
     "express": "~4.9.7",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-directory-sync": "^1.2.3",
+    "gulp-file-sync": "^1.0.5",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
     "typescript": "*",
-    "typings": "*"
+    "typings": "*",
+    "webpack": "^1.13.2"
   }
 }
