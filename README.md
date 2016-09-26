@@ -4,7 +4,7 @@
 npm and node
 
 <h2>Usage:</h2>
-You should only need to modify the content in the client and server directories. When installing new npm packages or typings, use "--save" to save them in the corresponding json files.
+You should only need to modify the content in client and server directories. When installing new npm packages or typings, use "--save" to save them in the corresponding json files.
 
 <h2>Most important commands:</h2>
 <b>npm install</b>: installs the typings for the libs and compiles the server code into build/server.</br>
